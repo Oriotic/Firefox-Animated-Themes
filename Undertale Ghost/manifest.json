@@ -1,0 +1,69 @@
+{
+  "manifest_version": 2,
+  "name": "Undertale Ghost Theme",
+  "version": "1.0",
+
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/ghost.png",
+        "images/ghost_tile.png"
+      ]
+    },
+
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "right center",
+        "center center"
+      ],
+
+      "additional_backgrounds_tiling": [
+        "no-repeat",
+        "repeat-x"
+      ],
+
+      "color_scheme": "dark",
+      "content_color_scheme": "dark"
+    },
+
+      "colors": {
+        "toolbar": "rgba(20, 20, 20, 0)",
+        "toolbar_text": "rgb(255, 255, 255)",
+
+        "frame": "rgb(20, 20, 20)",
+        "tab_background_text": "rgb(255, 255, 255)",
+
+        "toolbar_field": "rgba(28, 28, 28, 0.6)",
+        "toolbar_field_text": "rgb(255, 255, 255)",
+
+        "tab_line": "rgba(255, 255, 255, 0.2)",
+        "popup": "rgb(20, 20, 20)",
+
+        "popup_text": "rgb(255, 255, 255)",
+        "icons_attention": "rgb(160, 160, 160)",
+
+        "ntp_background": "rgb(20, 20, 20)",
+        "popup_border": "rgba(20, 20, 20, 0)",
+
+        "sidebar_highlight": "rgb(100, 100, 100)",
+        "sidebar_text": "rgb(255, 255, 255)",
+
+        "sidebar": "rgb(20, 20, 20)",
+        "toolbar_bottom_separator": "rgba(20, 20, 20, 0)",
+
+        "toolbar_top_separator": "rgba(255, 255, 255, 0)",
+        "tab_loading": "rgba(0, 0, 0, 0)",
+
+        "ntp_card_background": "rgb(35, 35, 35)",
+        "ntp_text": "rgb(255, 255, 255)",
+
+        "icons": "rgb(130, 130, 130)"
+      }
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ghost@undertale"
+    }
+  }
+}
